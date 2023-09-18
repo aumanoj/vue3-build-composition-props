@@ -6,9 +6,9 @@
 </template>
 
 <script setup>
-/* Defined props here */
-const props = defineProps({
-  child_greeting: String,
-})
+  /* Defined props here */
+  const props = defineProps({
+    child_greeting: String,
+  })
 </script>
   
