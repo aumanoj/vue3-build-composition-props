@@ -7,7 +7,8 @@
 </template>
 
 <script setup>
+  import { ref } from 'vue'
   import Counter from './components/Counter.vue'
   import GreetingParent from './components/GreetingParent.vue'
-  const greetingMessage = 'Greeting from App.vue'
+  const greetingMessage = ref('Greeting from App.vue')
 </script>

@@ -8,9 +8,7 @@
   import {ref} from 'vue'
   const count = ref(0)
   const incrementValue = ref(1)
-  const incrementCounter = (value)  =>{
-    count.value += parseInt(value)
-  }
+  const incrementCounter = increment => count.value += increment
 </script>
 <style scoped>
 label{

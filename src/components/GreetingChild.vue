@@ -11,6 +11,7 @@
   /* Defined props here */
   const props = defineProps({
     parent_greeting: String,
+    required: false
   })
 </script>
   

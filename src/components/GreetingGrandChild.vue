@@ -9,6 +9,7 @@
   /* Defined props here */
   const props = defineProps({
     child_greeting: String,
+    required: false
   })
 </script>
   

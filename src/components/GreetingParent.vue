@@ -11,6 +11,7 @@
   /* Defined props here */
   const props = defineProps({
     message: String,
+    required: false
   })
 </script>
   
